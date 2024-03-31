@@ -64,3 +64,15 @@ python us_volcanoes_mapping.py
 - **Map Visualization**: The project creates an interactive map using Folium, displaying the locations of US volcanoes along with their elevations.
 - **Marker Color Coding**: Volcano markers are color-coded based on elevation, providing visual cues for different elevation ranges.
 - **Layer Control**: The map includes a layer control feature that allows users to toggle between viewing US volcanoes and world population data.
+
+
+## Potential Enhancements
+
+Allow filtering volcanoes by characteristics
+Add tooltip/legend for population overlay
+Use choropleth instead of heatmap for population
+Add timestamp animation for time-series population data
+
+## Usage
+
+The map visualizes the spatial distribution of US volcanoes and compares their locations globally against population centers. This interactive analysis could provide geological/demographic insights.
