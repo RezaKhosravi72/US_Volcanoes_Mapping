@@ -4,6 +4,20 @@
 
 This project focuses on visualizing data related to US volcanoes using Python and the Folium library. It reads volcano data from a CSV file and creates an interactive map that displays the locations of volcanoes along with their elevations.
 
+## Datasets
+
+The project uses two datasets:
+
+volcanoes.txt - Contains latitude, longitude, name and elevation data for US volcanoes.
+
+world.json - GeoJSON data containing country boundaries and population figures from 2005.
+
+## Requirements
+
+Python 3
+Folium
+Pandas
+
 ## Installation
 
 To run this project, you need to have Python installed on your system. Additionally, you'll need to install the following libraries:
