@@ -1,39 +1,65 @@
-# US Volcanoes Mapping
+# World Population and US Volcanoes Mapping
 
-This project aims to visualize and map the locations of volcanoes across the United States. It utilizes Python libraries folium for interactive mapping and pandas to parse volcano data from a CSV file.
+## Overview
 
-## Data
+This project focuses on visualizing data related to US volcanoes using Python and the Folium library. It reads volcano data from a CSV file and creates an interactive map that displays the locations of volcanoes along with their elevations.
 
-The volcano data is sourced from a CSV file titled "Volcanoes.txt". This contains fields like name, location, elevation etc. of different volcanoes. 
+## Installation
 
-## Requirements
+To run this project, you need to have Python installed on your system. Additionally, you'll need to install the following libraries:
 
-- Python 3
-- Folium 
+- Folium
 - Pandas
 
-## Instructions
+You can install these libraries using pip:
 
-1. Clone this repository
-2. Navigate to project directory
-3. Install requirements - `pip install -r requirements.txt`
-4. Run Jupyter notebook - `jupyter notebook`
-5. Run the cells in US_Volcanoes_Characteristics.ipynb
-6. This will generate a HTML file with an interactive map
+```bash
+pip install folium pandas
+```
 
-## Working
+## Usage
 
-The notebook reads the CSV data, extracts relevant columns like latitude, longitude, name and elevation. It then maps these locations on a Folium map with color coded markers representing elevation. 
+1. Clone this repository to your local machine:
 
-On hovering over each marker, a popup displays the volcano name. The maximum elevation is also calculated to determine marker color ranges.
+```bash
+git clone https://github.com/your_username/us-volcanoes-mapping.git
+```
 
-## Output
+2. Navigate to the project directory:
 
-Upon running all cells, my_address.html is generated containing an interactive map visualization of the volcanoes. Users can pan/zoom the map and view volcano details.
+```bash
+cd us-volcanoes-mapping
+```
 
-## Scope for Improvement
+3. Run the Python script `us_volcanoes_mapping.py`:
 
-- Add additional volcano fields to marker popups
-- Plot elevation as choropleth or heat map overlay  
-- Allow downloading mapped data
-- Interface to add/edit volcano entries
+```bash
+python us_volcanoes_mapping.py
+```
+
+4. After running the script, a file named `World_Population_&_US_Volcanoes.html` will be generated in the project directory. Open this HTML file in a web browser to view the interactive map.
+
+## Project Structure
+
+- `us_volcanoes_mapping.py`: Python script containing the code for reading volcano data, creating the map, and saving it to an HTML file.
+- `Volcanoes.txt`: CSV file containing data about US volcanoes.
+- `world.json`: GeoJSON file containing world population data used for visualizing world population on the map.
+
+## Features
+
+- **Map Visualization**: The project creates an interactive map using Folium, displaying the locations of US volcanoes along with their elevations.
+- **Marker Color Coding**: Volcano markers are color-coded based on elevation, providing visual cues for different elevation ranges.
+- **Layer Control**: The map includes a layer control feature that allows users to toggle between viewing US volcanoes and world population data.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- Data source: US Geological Survey (USGS)
+- GeoJSON data source: Natural Earth
+
+---
+
+Feel free to customize the README file according to your preferences and add any additional information you find relevant.
