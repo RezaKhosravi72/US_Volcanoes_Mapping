@@ -36,26 +36,26 @@ pip install folium pandas
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your_username/us-volcanoes-mapping.git
+git clone https://github.com/rezaKhosravi72/US_Volcanoes_Mapping.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd us-volcanoes-mapping
+cd US_Volcanoes_Mapping
 ```
 
-3. Run the Python script `us_volcanoes_mapping.py`:
+3. Run the Python script `World_Population_&_US_Volcanoes_Characteristics.py`:
 
 ```bash
-python us_volcanoes_mapping.py
+python World_Population_&_US_Volcanoes_Characteristics.py
 ```
 
 4. After running the script, a file named `World_Population_&_US_Volcanoes.html` will be generated in the project directory. Open this HTML file in a web browser to view the interactive map.
 
 ## Project Structure
 
-- `us_volcanoes_mapping.py`: Python script containing the code for reading volcano data, creating the map, and saving it to an HTML file.
+- `World_Population_&_US_Volcanoes_Characteristics.py`: Python script containing the code for reading volcano data, creating the map, and saving it to an HTML file.
 - `Volcanoes.txt`: CSV file containing data about US volcanoes.
 - `world.json`: GeoJSON file containing world population data used for visualizing world population on the map.
 
