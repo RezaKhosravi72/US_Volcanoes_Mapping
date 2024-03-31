@@ -14,9 +14,9 @@ world.json - GeoJSON data containing country boundaries and population figures f
 
 ## Requirements
 
-Python 3
-Folium
-Pandas
+* Python 3
+* Folium
+* Pandas
 
 ## Installation
 
